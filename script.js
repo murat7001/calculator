@@ -29,7 +29,6 @@
 
     equal.addEventListener("click",function(e){
         let string= screen.value;
-        console.log(string);
         if(screen.value == ""){
             screen.value = "Please enter";
         }else{
